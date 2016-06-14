@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.background{
+	background:
+	url(../images/grid-left.svg) 0% 0 no-repeat,url(../images/grid-right.svg) 120% 0 no-repeat,url(../images/grid-bottom.svg) 50% 105% no-repeat,linear-gradient(to bottom,#302B2B 0,#010101 100%);
+	background-size:40% auto,40% auto,60% auto,auto;
+	position:relative;
+}
+.header{
+	width:500px;
+	margin:0 auto;
+	TEXT-ALIGN: center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.title{
+	font-size:34px;
+	line-height:20px;
+	height:50px;
+	text-align:center;
+	color:#fff;
+	
+}
+#sensordiv,#actuatordiv {
+	border:5px solid #fff;
+	width:500px;
+}
+#sensordiv,#actuatordiv>h3{
+	color:#fff
+}
+.execute{
+	color:#fff
+}
+
+.nodetable{
+	margin-top:50px;
+	border:5px solid #fff;
+	padding:10px;
+	color:#547DCC;
+}
+#nodelist{
+	color:#547DCC;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate{
+	color:#EBECEE
+}
+
+*{
+	font-family:Microsoft YaHei
+}
